@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
+    <Assembly>My.Test.Project</Assembly>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Package">
+    <Version>0.0.1</Version>
+    <Authors>Andrew S Barger</Authors>
+    <Company>Bastian Software Solutions</Company>
+    <Product>My.Test.Project</Product>
+    <PackageId>My.Test.Project</PackageId>
+    <PackageTags>Bastian Software Solutions</PackageTags>
+    <Description>My Descriptopn</Description>
+    <Copyright>Copyright © Andrew S Barger. All rights Reserved</Copyright>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Bastian.DependencyInjection" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
