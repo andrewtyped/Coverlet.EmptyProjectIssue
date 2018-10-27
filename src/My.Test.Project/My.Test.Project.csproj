@@ -16,9 +16,5 @@
     <Description>My Descriptopn</Description>
     <Copyright>Copyright © Andrew S Barger. All rights Reserved</Copyright>
   </PropertyGroup>
-  
-  <ItemGroup>
-    <PackageReference Include="Bastian.DependencyInjection" Version="1.0.3" />
-  </ItemGroup>
-
+ 
 </Project>
